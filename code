@@ -1,0 +1,142 @@
+    1  yum update -y
+    2  yum install java-11 -y
+    3  yum install maven
+    4  yum install tree -y
+    5  mvn archetype:generate | grep maven-archetype-webapp
+    6  mvn archetype:generate
+    7  mvn archetype:generate | grep maven-archetype-webapp
+    8  mvn archetype:generate
+    9  ls
+   10  tree webapp
+   11  vi pom.xml
+   12  ls
+   13  rm -rf pom.xml
+   14  ls
+   15  tree
+   16  cd webapp
+   17  tree
+   18  ls'
+   19  ls
+   20  vi po,.cml
+   21  ls
+   22  rm po,.cml
+   23  ls
+   24  vi pom.xml
+   25  vi src/main/webapp/index.jsp
+   26  mvn package
+   27  tree
+   28  cd
+   29  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.73/bin/apache-tomcat-8.5.73.tar.gz
+   30  ls
+   31  tar -xvf apache-tomcat-8.5.73.tar.gz
+   32  ls
+   33  cd apache-tomcat-8.5.73
+   34  ls
+   35  cd bin
+   36  ls
+   37  ./ startup.sh
+   38  ./startup.sh
+   39  netstat -ntpl
+   40  ps -ef | grep tomcat
+   41  cd ..
+   42  ls
+   43  cd conf
+   44  ls
+   45  vim tomcat-users.xml
+   46  ls
+   47  cd ..
+   48  cd bin
+   49  ./shutdown.sh
+   50  ./startup.sh
+   51  cd ..
+   52  ls
+   53  cd conf
+   54  ./shutdown.sh
+   55  cd ../bin
+   56  ./shutdown.sh
+   57  cd ../conf
+   58  ls
+   59  vi tomcat-users.xml
+   60  cd ../bin
+   61  ./startup.sh
+   62  ./shutdown.sh
+   63  cd ../conf
+   64  vi tomcat-users.xml
+   65  cd ..
+   66  ls
+   67  cd webapps
+   68  ls
+   69  cd manager/META-INF/
+   70  ls
+   71  vi context.xml
+   72  cd ../../..
+   73  cd bin
+   74  ./shutdown.sh
+   75  ./startup.sh
+   76  tree
+   77  cd ..
+   78  cd ..
+   79  ls
+   80  cd home
+   81  cd ec2-user
+   82  ls
+   83  ls -a
+   84  cd /
+   85  ls
+   86  cd home
+   87  ls
+   88  cd ec2-user
+   89  ls
+   90  cd
+   91  ls
+   92  cp apache-tomcat-8.5.73 /home/ec2-user
+   93  ls
+   94  cd apache-tomcat-8.5.73
+   95  ls
+   96  cp apache-tomcat-8.5.73 /home/ec2-user
+   97  cd ..
+   98  /home/ec2-user
+   99  cd /home/ec2-user
+  100  ls
+  101  tree
+  102  cd webapp
+  103  ls
+  104  tree
+  105  cp target/webapp.war ~/apache-tomcat-8.5.73/webapps/
+  106  tree
+  107  vi target/webapp.war
+  108  vi /src/main/webapp/index.jsp
+  109  ls
+  110  rm ?
+  111  ls
+  112  cd src
+  113  ls
+  114  cd main
+  115  ls
+  116  cd webapp
+  117  ls
+  118  vim index.jsp
+  119  cd ../../../
+  120  ls
+  121  cp target/webapp.war ~/apache-tomcat-8.5.73/webapps/
+  122  cp target/webapp.war ~/apache-tomcat-8.5.73/webapps/
+  123  mvn package
+  124  cp target/webapp.war ~/apache-tomcat-8.5.73/webapps/
+  125  cd ..
+  126  ls
+  127  git init
+  128  git status
+  129  yum install git -y
+  130  git init
+  131  git status
+  132  git add . && git commit -m "maven webapp"
+  133  git status
+  134  ssh-keygen
+  135  cat /root/.ssh/id_rsa.pub
+  136  git clone git@github.com:AbyanShaik/maven-webapp.git
+  137  ls
+  138  git add remote origin git@github.com:AbyanShaik/maven-webapp.git
+  139  git remote add origin git@github.com:AbyanShaik/maven-webapp.git
+  140  git push origin master
+  141  history
+
